@@ -1,5 +1,5 @@
 {
-  description = "A simple flake temlpate"
+  description = "A simple flake temlpate";
   outputs = {self}: {
 
     templates = {
