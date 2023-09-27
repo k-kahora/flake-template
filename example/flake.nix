@@ -19,5 +19,5 @@
           buildInputs = with pkgs; [swiProlog];
           shellHook = "alias prolog=swipl";
         };
-      };
+      });
 }
