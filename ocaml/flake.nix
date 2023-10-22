@@ -27,6 +27,10 @@
             ocamlPackages.ocaml-lsp
             ocamlPackages.ocamlformat-rpc-lib
             ocamlPackages.utop
+            ocamlPackages.core
+            ocamlPackages.batteries
+            ocamlPackages.dune_3
+            ocamlPackages.ocaml
 
           ];
         };
