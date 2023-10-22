@@ -6,7 +6,7 @@
       ocaml = {
         path = ./ocaml;
         description = "Basic ocaml shell flake";
-        welcomText = ''
+        welcomeText = ''
           # Simple dev shell for ocaml
           ## Intended use
           Starting up basic ocaml projects
