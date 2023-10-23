@@ -13,12 +13,12 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
-        ocamlPackages = legacyPackages.ocamlPackages;
-        lib = legacyPackages.lib;
+        nodePackages = pkgs.nodePackages;
+        lib = pkgs.lib;
       in
       {
       devShells = {
-        default = legacyPackages.mkShell {
+        default = pkgs.mkShell {
           packages = [
             nodePackages.node2nix
             nodePackages.typescript

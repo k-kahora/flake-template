@@ -3,6 +3,15 @@
   outputs = {self}: {
 
     templates = {
+      web = {
+        path = ./web;
+        description = "Basic lsps and installs for simple webdeg";
+        welcomeText = ''
+          # Simple dev shell html,js, and css
+          ## Intended use
+          Work in simple html files
+        '';
+      };
       ocaml = {
         path = ./ocaml;
         description = "Basic ocaml shell flake";
